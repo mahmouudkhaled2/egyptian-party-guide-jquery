@@ -1,0 +1,82 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 150px 0;
+ }
+/*=========================*/
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  height: 92vh;
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/main-bg.jpg);
+}
+
+.heading h1 {
+  font-size: 55px;
+}
+
+side-menu {
+    width: 0;
+    overflow: hidden;
+  }
+  
+  .open-menu {
+    left: 20px;
+  }
+  
+  .close-menu {
+    right: 30px;
+    top: 30px;
+  }
+  
+  side-menu a,
+  .close-menu {
+    color: #fff;
+    cursor: pointer;
+  }
+
+.singer {
+  background-color: #e68285;
+  cursor: pointer;
+}
+
+.singer + p {
+  padding: 15px;
+  display: none;
+}
+
+.count {
+    background-image: linear-gradient(
+        rgba(214, 46, 51, 0.6),
+        rgba(214, 46, 51, 0.6)
+      ),
+      url(../images/count-bg.jpg);
+  }
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  border: 1px #ccc solid;
+  color: #888;
+}
